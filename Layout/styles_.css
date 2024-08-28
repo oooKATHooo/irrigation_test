@@ -1,0 +1,55 @@
+:root {--text_dark: rgb(61, 71, 18);
+    --text_light: #eee8aa;
+    --water_top: rgb(13, 168, 168);
+    --water_bottom: rgb(0, 152, 139);
+    --bg: rgb(175, 188, 92);
+    --bg_dark: rgb(150, 166, 43);}
+
+button {color: rgb(166, 9, 135);
+    box-shadow: var(--text_dark);
+    background-color: var(--bg);
+}
+
+header.st-emotion-cache-12fmjuu.ezrtsby2 {
+    background-color: var(--bg_dark);
+}
+section.main.st-emotion-cache-bm2z3a {
+    background-color: var(--bg_dark);
+}
+div.st-emotion-cache-0 {
+    background-color: var(--bg);
+    }
+
+h1  {color: var(--text_light);
+    background-color: var(--bg);
+    font-size: 200%;
+    text-align: center;
+    text-shadow: 0.2rem 0.2rem var(--text_dark);
+    padding: 0.75rem;
+    letter-spacing: 0.2rem;
+    border-bottom: var(--bg_dark) solid 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+table, th, tr {
+    border: hidden;
+}
+
+/*
+
+            .st-emotion-cache-1b6oy9v {{
+                background-color: yellow;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                border-radius: 1px;
+                height: {height_top}
+                }}
+            .st-emotion-cache-nxn83v {{
+                background-color: blue;
+                margin-top: 0px;
+                margin-bottom: 1rem;
+                border-radius: 1px;
+                height: {height_bottom}
+            }}
+*/

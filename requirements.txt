@@ -1,0 +1,2 @@
+streamlit==1.38.0
+streamlit-extras==0.4.7
