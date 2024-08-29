@@ -1,4 +1,6 @@
 .venv
-secrets.txt
-Layout/__pycache__/css_to_streamlit.cpython-312.pyc
-Layout/__pycache__
+/secrets*
+
+/Layout/**
+! /Layout/css_to_streamlit.py
+! /Layout/styles_.css
