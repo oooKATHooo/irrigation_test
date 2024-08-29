@@ -5,7 +5,7 @@
     --bg: rgb(175, 188, 92);
     --bg_dark: rgb(150, 166, 43);}
 
-button {color: rgb(166, 9, 135);
+button {color: var(--text_dark);
     box-shadow: var(--text_dark);
     background-color: var(--bg);
 }
@@ -13,12 +13,14 @@ button {color: rgb(166, 9, 135);
 header.st-emotion-cache-12fmjuu.ezrtsby2 {
     background-color: var(--bg_dark);
 }
+
 section.main.st-emotion-cache-bm2z3a {
     background-color: var(--bg_dark);
 }
+
 div.st-emotion-cache-0 {
     background-color: var(--bg);
-    }
+}
 
 h1  {color: var(--text_light);
     background-color: var(--bg);
@@ -31,25 +33,6 @@ h1  {color: var(--text_light);
     margin-bottom: 0.5rem;
 }
 
-
 table, th, tr {
     border: hidden;
 }
-
-/*
-
-            .st-emotion-cache-1b6oy9v {{
-                background-color: yellow;
-                margin-top: 0px;
-                margin-bottom: 0px;
-                border-radius: 1px;
-                height: {height_top}
-                }}
-            .st-emotion-cache-nxn83v {{
-                background-color: blue;
-                margin-top: 0px;
-                margin-bottom: 1rem;
-                border-radius: 1px;
-                height: {height_bottom}
-            }}
-*/
